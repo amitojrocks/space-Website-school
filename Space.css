@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+    background: linear-gradient(120deg, #ffcc00, #ff6699); /* Smooth gradient */
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for content */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white for a sleek look */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px); /* Adds a cool glassmorphism effect */
+}
+
+/* Heading */
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #ff3366, #ffcc00);
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Effect */
+.button:hover {
+    background: linear-gradient(45deg, #ffcc00, #ff3366);
+    transform: scale(1.1);
+}
+
+/* Subtle Animation */
+@keyframes glowing {
+    0% { box-shadow: 0 0 5px #ff6699; }
+    100% { box-shadow: 0 0 20px #ff3366; }
+}
+
+.button {
+    animation
